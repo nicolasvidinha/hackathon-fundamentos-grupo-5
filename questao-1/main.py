@@ -27,3 +27,7 @@ def calcular_desconto(valor_frutas_verduras, eh_fidelidade, idade):
         desconto_total = 0.20
     
     return desconto_total
+
+def calcular_valor_final(total, desconto):
+    valor_final = total * (1 - desconto)
+    return valor_final 
