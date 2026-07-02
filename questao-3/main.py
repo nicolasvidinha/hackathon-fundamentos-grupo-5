@@ -34,7 +34,6 @@ maior_consumo = -1
 aparelho_maior_consumo = ""
 resultados_aparelhos = []
 
-
 for nome, potencia, horas in aparelhos:
 
     consumo_mensal = calcular_consumo_aparelho(potencia, horas)    
